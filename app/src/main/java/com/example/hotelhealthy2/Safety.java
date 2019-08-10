@@ -39,7 +39,7 @@ public class Safety extends AppCompatActivity {
         backbkwork.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                fileList();
+                finish();
             }
         });
 
@@ -120,8 +120,8 @@ public class Safety extends AppCompatActivity {
         backSafety.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backsafehm = new Intent(Safety.this , MainActivity.class);
-
+                Intent backsafehm1 = new Intent(Safety.this , MainActivity.class);
+            startActivity(backsafehm1);
             }
         });
 
