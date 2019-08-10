@@ -59,11 +59,11 @@
                 android:id="@+id/cilb1"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/iconcilpbellboy" />
+                android:background="@drawable/iconcilpbellboy"
+                android:layout_marginStart="60dp" />
 
             <TextView
                 android:id="@+id/viewroom"
@@ -75,28 +75,28 @@
                 android:id="@+id/cilb2"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib2" />
+                android:background="@drawable/clib2"
+                android:layout_marginStart="60dp" />
 
             <Button
                 android:id="@+id/cilb3"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib3" />
+                android:background="@drawable/clib3"
+                android:layout_marginStart="60dp" />
 
             <Button
                 android:id="@+id/cilb4"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:background="@drawable/clib4" />
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/clib4"
+                android:layout_marginStart="60dp" />
 
             <TextView
                 android:id="@+id/vieweven"
@@ -110,37 +110,37 @@
                 android:id="@+id/cilb5"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/cilb5" />
+                android:background="@drawable/cilb5"
+                android:layout_marginStart="60dp" />
 
             <Button
                 android:id="@+id/cilb6"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib6" />
+                android:background="@drawable/clib6"
+                android:layout_marginStart="60dp" />
 
             <Button
                 android:id="@+id/clib7"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib7" />
+                android:background="@drawable/clib7"
+                android:layout_marginStart="60dp" />
 
             <Button
                 android:id="@+id/clib8"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib8" />
+                android:background="@drawable/clib8"
+                android:layout_marginStart="60dp" />
         </LinearLayout>
     </ScrollView>
 

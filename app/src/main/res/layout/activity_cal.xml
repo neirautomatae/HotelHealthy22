@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/txtbmr3"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="number"
@@ -18,7 +18,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.728"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42000002" />
@@ -183,8 +183,8 @@
 
     <EditText
         android:id="@+id/txtbmr2"
-        android:layout_width="202dp"
-        android:layout_height="50dp"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="number"
@@ -193,13 +193,13 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.728"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtbmr1"
-        android:layout_width="202dp"
+        android:layout_width="175dp"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
         android:autofillHints=""
@@ -210,9 +210,9 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintHorizontal_bias="0.728"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtbmr2"
-        app:layout_constraintVertical_bias="0.029999971" />
+        app:layout_constraintVertical_bias="0.035" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

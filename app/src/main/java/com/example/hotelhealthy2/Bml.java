@@ -45,7 +45,7 @@ public class Bml extends AppCompatActivity {
                 Numbmi1 = Integer.parseInt(numberbmi1.getText().toString().trim());
                 Numbmi2 = Integer.parseInt(numberbmi2.getText().toString().trim());
 
-                double result = Numbmi2 / (Numbmi1 * Numbmi1 / 0.01);
+                double result = Numbmi2 / (Numbmi1 + Numbmi1 * 0.00);
                 ResultTextViewbmi.setText(String.valueOf(result));
 
             }

@@ -34,8 +34,8 @@ public class Nutrition extends AppCompatActivity {
         nextgrid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gogrid = new Intent(Nutrition.this , Thegrid.class);
-                startActivity(gogrid);
+                Intent nextgrid1 = new Intent(Nutrition.this , Thegrid.class);
+                startActivity(nextgrid1);
             }
         });
 
