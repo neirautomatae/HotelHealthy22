@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgfood03"
+    android:background="@drawable/bgfood"
     tools:context=".Food2">
 
     <Button
         android:id="@+id/btnbackblue"
         android:layout_width="66dp"
         android:layout_height="32dp"
-        android:background="?attr/actionBarItemBackground"
+        android:background="@drawable/iconoren"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -19,57 +19,62 @@
         android:id="@+id/btnhomeblue"
         android:layout_width="66dp"
         android:layout_height="32dp"
-        android:background="?attr/actionBarItemBackground"
+        android:background="@drawable/iconorenhm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
         android:id="@+id/btnblred"
-        android:layout_width="47dp"
-        android:layout_height="90dp"
-        android:background="?attr/actionBarItemBackground"
+        android:layout_width="55dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/iconred1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintTop_toBottomOf="@+id/viewkum2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnbloren"
-        android:layout_width="47dp"
-        android:layout_height="90dp"
-        android:background="?attr/actionBarItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_width="55dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/iconoren1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483" />
+        app:layout_constraintTop_toBottomOf="@+id/btnblred" />
 
     <Button
         android:id="@+id/btnblgreen3"
-        android:layout_width="47dp"
-        android:layout_height="90dp"
-        android:background="?attr/actionBarItemBackground"
+        android:layout_width="55dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/icongreen"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintTop_toBottomOf="@+id/textblue"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textblue"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/iconblue1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnbloren" />
 
     <ScrollView
         android:id="@+id/scrollfood2"
         android:layout_width="320dp"
-        android:layout_height="550dp"
+        android:layout_height="560dp"
+        android:layout_marginTop="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textblue"
+        app:layout_constraintTop_toBottomOf="@+id/viewkum2"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -90,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/kum"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
