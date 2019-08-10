@@ -41,14 +41,14 @@ public class Gay extends AppCompatActivity {
     public void clickoff(View view) {
 
         Intent weboff = new Intent(Intent.ACTION_VIEW);
-        weboff.setData(Uri.parse("https://www.youtube.com/watch?v=GdGhD-oBFIY&list=PLoqd5KN7Vo0wmJr0O6SDshCVGakUHAMr8&index=1"));
+        weboff.setData(Uri.parse("https://www.youtube.com/watch?v=GdGhD-oBFIY"));
         startActivity(weboff);
     }
 
     public void clickpary(View view) {
 
         Intent webpaty = new Intent(Intent.ACTION_VIEW);
-        webpaty.setData(Uri.parse("https://www.youtube.com/watch?v=CcIKnEBD1hA&list=PLoqd5KN7Vo0wmJr0O6SDshCVGakUHAMr8&index=2"));
+        webpaty.setData(Uri.parse("https://www.youtube.com/watch?v=CcIKnEBD1hA&t=272s"));
         startActivity(webpaty);
     }
 }

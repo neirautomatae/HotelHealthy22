@@ -151,19 +151,19 @@
             <Button
                 android:id="@+id/btntips16"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:background="@drawable/icontips16" />
 
             <Button
                 android:id="@+id/btntips17"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:background="@drawable/icontips17" />
 
             <Button
                 android:id="@+id/btntips18"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:background="@drawable/icontips18" />
         </LinearLayout>
     </ScrollView>

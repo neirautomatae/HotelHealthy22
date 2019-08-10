@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         nexttele = findViewById(R.id.btnTele);
         nextapp = findViewById(R.id.btnApp);
 
-        int images[] = {R.drawable.bghome1, R.drawable.bghome2,R.drawable.bghome3};
+        int images[] = {R.drawable.bghome1, R.drawable.bghome2,R.drawable.bghome3,R.drawable.bghome4};
 
         // for loop
         /*for (int i = 0; i < images.length; i++){

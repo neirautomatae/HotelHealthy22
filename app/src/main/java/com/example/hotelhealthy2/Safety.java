@@ -47,7 +47,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube1 = new Intent(Intent.ACTION_VIEW);
-                youtube1.setData(Uri.parse("https://www.youtube.com/watch?v=Za7cpj0RLJE&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=8"));
+                youtube1.setData(Uri.parse("https://www.youtube.com/watch?v=Za7cpj0RLJE"));
                 startActivity(youtube1);
             }
         });
@@ -56,7 +56,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube2 = new Intent(Intent.ACTION_VIEW);
-                youtube2.setData(Uri.parse("https://www.youtube.com/watch?v=cTmDcd5jOTE&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=4"));
+                youtube2.setData(Uri.parse("https://www.youtube.com/watch?v=cTmDcd5jOTE&t=9s"));
                 startActivity(youtube2);
             }
         });
@@ -65,7 +65,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube3 = new Intent(Intent.ACTION_VIEW);
-                youtube3.setData(Uri.parse("https://www.youtube.com/watch?v=iHkYF0sa-bw&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=7"));
+                youtube3.setData(Uri.parse("https://www.youtube.com/watch?v=iHkYF0sa-bw"));
                 startActivity(youtube3);
             }
         });
@@ -74,7 +74,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube4 = new Intent(Intent.ACTION_VIEW);
-                youtube4.setData(Uri.parse("https://www.youtube.com/watch?v=-6hqR8jhvBM&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=2"));
+                youtube4.setData(Uri.parse("https://www.youtube.com/watch?v=-6hqR8jhvBM&t=28s"));
                 startActivity(youtube4);
             }
         });
@@ -83,7 +83,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube5 = new Intent(Intent.ACTION_VIEW);
-                youtube5.setData(Uri.parse("https://www.youtube.com/watch?v=aALu1-ggzX8&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=1"));
+                youtube5.setData(Uri.parse("https://www.youtube.com/watch?v=aALu1-ggzX8&t=100s"));
                 startActivity(youtube5);
             }
         });
@@ -92,7 +92,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube6 = new Intent(Intent.ACTION_VIEW);
-                youtube6.setData(Uri.parse("https://www.youtube.com/watch?v=rvoeExDfQIc&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=5"));
+                youtube6.setData(Uri.parse("https://www.youtube.com/watch?v=rvoeExDfQIc&t=20s"));
                 startActivity(youtube6);
             }
         });
@@ -101,7 +101,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube7 = new Intent(Intent.ACTION_VIEW);
-                youtube7.setData(Uri.parse("https://www.youtube.com/watch?v=RaWglZbPMzg&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=9"));
+                youtube7.setData(Uri.parse("https://www.youtube.com/watch?v=RaWglZbPMzg"));
                 startActivity(youtube7);
             }
         });
@@ -110,7 +110,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent youtube8 = new Intent(Intent.ACTION_VIEW);
-                youtube8.setData(Uri.parse("https://www.youtube.com/watch?v=tyn7cCaeTcQ&list=PLoqd5KN7Vo0xGlOvnrrzh3DAvwyunAx0h&index=6"));
+                youtube8.setData(Uri.parse("https://www.youtube.com/watch?v=tyn7cCaeTcQ"));
                 startActivity(youtube8);
             }
         });
