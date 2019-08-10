@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/btnbackblue"
         android:layout_width="66dp"
-        android:layout_height="32dp"
+        android:layout_height="30dp"
         android:background="@drawable/iconoren"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -18,7 +18,7 @@
     <Button
         android:id="@+id/btnhomeblue"
         android:layout_width="66dp"
-        android:layout_height="32dp"
+        android:layout_height="30dp"
         android:background="@drawable/iconorenhm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
