@@ -47,7 +47,7 @@ public class Exercise extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent yogaep1 = new Intent(Intent.ACTION_VIEW);
-                yogaep1.setData(Uri.parse("https://www.youtube.com/watch?v=HQsh_sRpSnQ&list=PLoqd5KN7Vo0w22udiX3jqKocwP5_srt2k&index=3"));
+                yogaep1.setData(Uri.parse("https://www.youtube.com/watch?v=HQsh_sRpSnQ&t=753s"));
                 startActivity(yogaep1);
             }
         });
@@ -56,7 +56,7 @@ public class Exercise extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent pajamoneep1 = new Intent(Intent.ACTION_VIEW);
-                pajamoneep1.setData(Uri.parse("https://www.youtube.com/watch?v=UEBAHEHC76M&list=PLoqd5KN7Vo0w22udiX3jqKocwP5_srt2k&index=4"));
+                pajamoneep1.setData(Uri.parse("https://www.youtube.com/watch?v=UEBAHEHC76M&t=126s"));
                 startActivity(pajamoneep1);
             }
         });
@@ -65,7 +65,7 @@ public class Exercise extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent yogaep3 = new Intent(Intent.ACTION_VIEW);
-                yogaep3.setData(Uri.parse("https://www.youtube.com/watch?v=JQ9w7IV44iU&list=PLoqd5KN7Vo0w22udiX3jqKocwP5_srt2k&index=1"));
+                yogaep3.setData(Uri.parse("https://www.youtube.com/watch?v=JQ9w7IV44iU&t=14s"));
                 startActivity(yogaep3);
             }
         });
@@ -74,7 +74,7 @@ public class Exercise extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent yogaep4 = new Intent(Intent.ACTION_VIEW);
-                yogaep4.setData(Uri.parse("https://www.youtube.com/watch?v=y4ifBuH6anM&list=PLoqd5KN7Vo0w22udiX3jqKocwP5_srt2k&index=2"));
+                yogaep4.setData(Uri.parse("https://www.youtube.com/watch?v=y4ifBuH6anM&t=504s"));
                 startActivity(yogaep4);
             }
         });

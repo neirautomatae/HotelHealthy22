@@ -9,44 +9,43 @@ import android.widget.Button;
 
 public class Thegrid extends AppCompatActivity {
 
-    private Button nextfood2;
-    private Button nextfood3;
-    private Button nextfood4;
     private Button backthe01;
     private Button bkhomethe01;
+    private Button nextfdoren;
+    private  Button nextfdblue;
+    private  Button nextfdgreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thegrid);
-        nextfood2 = findViewById(R.id.btnfood2);
-        nextfood3 = findViewById(R.id.btnfood3);
-        nextfood4 = findViewById(R.id.btnfood4);
         backthe01 = findViewById(R.id.btnbackthe);
         bkhomethe01 = findViewById(R.id.btnhomethe);
+        nextfdoren = findViewById(R.id.btnfood2);
+        nextfdblue = findViewById(R.id.btnfood3);
+        nextfdgreen = findViewById(R.id.btnfood4);
 
-
-        nextfood2.setOnClickListener(new View.OnClickListener() {
+        nextfdoren.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gofood2 = new Intent(Thegrid.this , Food.class);
-                startActivity(gofood2);
+                Intent nextoren1 = new Intent(Thegrid.this , Food.class);
+                startActivity(nextoren1);
             }
         });
 
-        nextfood3.setOnClickListener(new View.OnClickListener() {
+        nextfdblue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gofood3 = new Intent(Thegrid.this , Food2.class);
-                startActivity(gofood3);
+                Intent nextblue1 = new Intent(Thegrid.this , Food2.class);
+                startActivity(nextblue1);
             }
         });
 
-        nextfood4.setOnClickListener(new View.OnClickListener() {
+        nextfdgreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gofood3 = new Intent(Thegrid.this , Food3.class);
-                startActivity(gofood3);
+                Intent nextgreen1 = new Intent(Thegrid.this , Food3.class);
+                startActivity(nextgreen1);
             }
         });
 

@@ -9,64 +9,61 @@ import android.widget.Button;
 
 public class Food extends AppCompatActivity {
 
-    private Button backfood01;
-    private Button nextfood02;
-    private Button nextfood03;
-
-    private Button backfd01;
-    private Button bkhome01;
+    private Button backoren01;
+    private Button bkorenthe01;
+    private Button nextred;
+    private  Button nextblue;
+    private  Button nextgreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food);
-        backfood01 = findViewById(R.id.btnfood201);
-        nextfood02 = findViewById(R.id.btnfood204);
-        nextfood03 = findViewById(R.id.btnfood203);
-        backfd01 = findViewById(R.id.btnbackfod2);
-        bkhome01 = findViewById(R.id.btnhomefod2);
+        backoren01 = findViewById(R.id.btnbkfod);
+        bkorenthe01 = findViewById(R.id.btnhomefod);
+        nextred = findViewById(R.id.btnfdred);
+        nextblue = findViewById(R.id.btnfdblue);
+        nextgreen = findViewById(R.id.btnfdgreen3);
 
-
-        backfood01.setOnClickListener(new View.OnClickListener() {
+        nextred.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gofood201 = new Intent(Food.this , Thegrid.class);
-                startActivity(gofood201);
+                Intent orennextred1 = new Intent(Food.this , Thegrid.class);
+                startActivity(orennextred1);
             }
         });
 
-        nextfood02.setOnClickListener(new View.OnClickListener() {
+        nextblue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gofood202 = new Intent(Food.this , Food3.class);
-                startActivity(gofood202);
+                Intent orennextblue1 = new Intent(Food.this , Food2.class);
+                startActivity(orennextblue1);
             }
         });
 
-        nextfood03.setOnClickListener(new View.OnClickListener() {
+        nextgreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gofood203 = new Intent(Food.this , Food2.class);
-                startActivity(gofood203);
+                Intent orennextgreen1 = new Intent(Food.this , Food3.class);
+                startActivity(orennextgreen1);
             }
         });
 
-
-        backfd01.setOnClickListener(new View.OnClickListener() {
+        backoren01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent bkfod01 = new Intent(Food.this , Nutrition.class);
-                startActivity(bkfod01);
+                finish();
             }
         });
 
-        bkhome01.setOnClickListener(new View.OnClickListener() {
+        bkorenthe01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent nexthomefod01 = new Intent(Food.this , MainActivity.class);
                 startActivity(nexthomefod01);
             }
         });
+
 
     }
 }

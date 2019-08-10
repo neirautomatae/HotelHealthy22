@@ -80,10 +80,28 @@
             <TextView
                 android:id="@+id/txtfood1"
                 android:layout_width="320dp"
-                android:layout_height="2400dp"
-                android:background="@drawable/food1" />
+                android:layout_height="800dp"
+                android:background="@drawable/food01" />
+
+            <TextView
+                android:id="@+id/txtfood2"
+                android:layout_width="320dp"
+                android:layout_height="800dp"
+                android:background="@drawable/food02" />
         </LinearLayout>
+
     </ScrollView>
 
+    <TextView
+        android:id="@+id/viewthekum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kum"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

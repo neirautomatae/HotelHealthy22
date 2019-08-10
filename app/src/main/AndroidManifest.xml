@@ -9,19 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Gay"
+        <activity android:name=".Food3"></activity>
+        <activity android:name=".Food2" />
+        <activity android:name=".Food" />
+        <activity
+            android:name=".Gay"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".Jij"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jij"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Pillow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pillow"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Pajpud"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pajpud"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Podrak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Podrak"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
@@ -138,18 +146,6 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Health"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Food3"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Food2"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Food"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity

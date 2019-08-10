@@ -8,7 +8,7 @@
     tools:context=".Food3">
 
     <Button
-        android:id="@+id/btnbackfod4"
+        android:id="@+id/btnbkgreen"
         android:layout_width="66dp"
         android:layout_height="32dp"
         android:background="?attr/actionBarItemBackground"
@@ -16,18 +16,52 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnhomefod4"
+        android:id="@+id/btngreenhome"
         android:layout_width="66dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
         android:background="?attr/actionBarItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
+    <Button
+        android:id="@+id/btngnred"
+        android:layout_width="47dp"
+        android:layout_height="90dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <Button
+        android:id="@+id/btngnoren"
+        android:layout_width="47dp"
+        android:layout_height="90dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/btngnblue"
+        android:layout_width="47dp"
+        android:layout_height="90dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
     <ScrollView
-        android:id="@+id/scrollfood4"
+        android:id="@+id/scrollfood2"
         android:layout_width="320dp"
         android:layout_height="550dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,59 +77,30 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtfood4"
-                android:layout_width="match_parent"
-                android:layout_height="1500dp"
-                android:background="@drawable/food4" />
+                android:id="@+id/viewfoodoren"
+                android:layout_width="320dp"
+                android:layout_height="800dp"
+                android:background="@drawable/foodgreen1" />
+
+            <TextView
+                android:id="@+id/viewgn2"
+                android:layout_width="320dp"
+                android:layout_height="800dp"
+                android:background="@drawable/foodgreen2" />
+
         </LinearLayout>
     </ScrollView>
 
     <TextView
-        android:id="@+id/veiwtxtfd4"
+        android:id="@+id/viewkum3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="**ค่าพลังงานแคลอรี (Kcal) ต่อปริมาณอาหาร 100 กรัม"
+        android:text="@string/kum"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
-
-    <Button
-        android:id="@+id/btnfood411"
-        android:layout_width="41dp"
-        android:layout_height="66dp"
-        android:background="?attr/actionBarItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.005"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.299" />
-
-    <Button
-        android:id="@+id/btnfood422"
-        android:layout_width="46dp"
-        android:layout_height="81dp"
-        android:background="?attr/actionBarItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48" />
-
-    <Button
-        android:id="@+id/btnfood433"
-        android:layout_width="38dp"
-        android:layout_height="82dp"
-        android:background="?attr/actionBarItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
+        app:layout_constraintVertical_bias="0.153" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
