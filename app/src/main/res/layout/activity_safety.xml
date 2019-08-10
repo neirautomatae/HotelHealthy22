@@ -8,14 +8,25 @@
     tools:context=".Safety">
 
     <Button
-        android:id="@+id/btnbacksafety"
+        android:id="@+id/btnbkeg1"
         android:layout_width="70dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginBottom="1dp"
-        android:background="@drawable/iconwork"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/iconbkeg1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <Button
+        android:id="@+id/btnbacksafety"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:background="@drawable/iconbkeeg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -24,18 +35,18 @@
         app:layout_constraintVertical_bias="0.021" />
 
     <ScrollView
-        android:layout_width="320dp"
-        android:layout_height="570dp"
+        android:layout_width="330dp"
+        android:layout_height="563dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75">
+        app:layout_constraintVertical_bias="0.83">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/viewbell"
@@ -82,9 +93,9 @@
                 android:id="@+id/cilb4"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginLeft="50dp"
-                android:background="@drawable/clib4"
-                android:layout_marginStart="50dp" />
+                android:background="@drawable/clib4" />
 
             <TextView
                 android:id="@+id/vieweven"
@@ -98,37 +109,37 @@
                 android:id="@+id/cilb5"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib5"
-                android:layout_marginStart="50dp" />
+                android:background="@drawable/cilb5" />
 
             <Button
                 android:id="@+id/cilb6"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib6"
-                android:layout_marginStart="50dp" />
+                android:background="@drawable/clib6" />
 
             <Button
                 android:id="@+id/clib7"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib7"
-                android:layout_marginStart="50dp" />
+                android:background="@drawable/clib7" />
 
             <Button
                 android:id="@+id/clib8"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/clib8"
-                android:layout_marginStart="50dp" />
+                android:background="@drawable/clib8" />
         </LinearLayout>
     </ScrollView>
 

@@ -6,14 +6,55 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class Mind extends AppCompatActivity {
+
+    private Button backbkmd;
+    private Button backhmmd;
+    private Button nextjij1;
+    private Button nextgay1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mind);
 
+        backbkmd = findViewById(R.id.btnbackmind);
+        backhmmd = findViewById(R.id.btnbacnkhomemind);
+        nextjij1 = findViewById(R.id.btnjij);
+        nextgay1 = findViewById(R.id.btngay);
+
+        nextjij1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent nejijxt = new Intent(Mind.this , Jij.class);
+                startActivity(nejijxt);
+            }
+        });
+
+        nextgay1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent negayxt = new Intent(Mind.this , Gay.class);
+                startActivity(negayxt);
+            }
+        });
+
+        backbkmd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        backhmmd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent bkhmmd = new Intent(Mind.this , MainActivity.class);
+                startActivity(bkhmmd);
+            }
+        });
 
 //web.setData(Uri.parse(""));
 

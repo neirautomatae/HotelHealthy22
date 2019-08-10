@@ -35,10 +35,10 @@
 
 
     <Button
-        android:id="@+id/btnmrk"
+        android:id="@+id/btnjij"
         android:layout_width="300dp"
         android:layout_height="90dp"
-        android:background="@drawable/iconclibmak1"
+        android:background="@drawable/iconjij"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,16 +46,15 @@
         app:layout_constraintVertical_bias="0.8" />
 
     <Button
-        android:id="@+id/btnmrk2"
+        android:id="@+id/btngay"
         android:layout_width="300dp"
         android:layout_height="90dp"
-        android:background="@drawable/iconclibmak2"
+        android:background="@drawable/icongay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.6" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
