@@ -39,6 +39,7 @@ public class Exercise extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent m1 = new Intent(Exercise.this , MainActivity.class);
+                finish();
                 startActivity(m1);
             }
         });

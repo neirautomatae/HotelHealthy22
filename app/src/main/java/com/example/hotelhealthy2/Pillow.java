@@ -31,6 +31,7 @@ public class Pillow extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent bkhmcvs1 = new Intent(Pillow.this , MainActivity.class);
+                finish();
                 startActivity(bkhmcvs1);
             }
         });

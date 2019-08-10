@@ -31,6 +31,7 @@ public class Tips16 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent hometips16 = new Intent(Tips16.this , MainActivity.class);
+                finish();
                 startActivity(hometips16);
             }
         });

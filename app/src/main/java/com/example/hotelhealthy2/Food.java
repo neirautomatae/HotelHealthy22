@@ -29,6 +29,7 @@ public class Food extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent orennextred1 = new Intent(Food.this , Thegrid.class);
+                finish();
                 startActivity(orennextred1);
             }
         });
@@ -37,6 +38,7 @@ public class Food extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent orennextblue1 = new Intent(Food.this , Food2.class);
+                finish();
                 startActivity(orennextblue1);
             }
         });
@@ -45,6 +47,7 @@ public class Food extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent orennextgreen1 = new Intent(Food.this , Food3.class);
+                finish();
                 startActivity(orennextgreen1);
             }
         });
@@ -60,6 +63,7 @@ public class Food extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent nexthomefod01 = new Intent(Food.this , MainActivity.class);
+                finish();
                 startActivity(nexthomefod01);
             }
         });

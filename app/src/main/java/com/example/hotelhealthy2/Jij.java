@@ -33,6 +33,7 @@ public class Jij extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent bkjaj01 = new Intent(Jij.this , MainActivity.class);
+                finish();
                 startActivity(bkjaj01);
             }
         });

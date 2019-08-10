@@ -40,6 +40,7 @@ public class Disease extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent hel = new Intent(Disease.this ,MainActivity.class);
+                finish();
                 startActivity(hel);
 
             }

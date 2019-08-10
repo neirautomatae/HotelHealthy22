@@ -32,6 +32,7 @@ public class Podrak extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent bkhmcvs1 = new Intent(Podrak.this , MainActivity.class);
+                finish();
                 startActivity(bkhmcvs1);
             }
         });

@@ -30,6 +30,7 @@ public class Tips5 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent hometips5 = new Intent(Tips5.this , MainActivity.class);
+                finish();
                 startActivity(hometips5);
             }
         });

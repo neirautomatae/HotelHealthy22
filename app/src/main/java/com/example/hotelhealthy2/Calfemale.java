@@ -50,6 +50,7 @@ public class Calfemale extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent calgohome = new Intent(Calfemale.this , MainActivity.class);
+                finish();
                 startActivity(calgohome);
             }
         });

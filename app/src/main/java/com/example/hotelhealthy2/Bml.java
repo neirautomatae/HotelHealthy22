@@ -18,7 +18,7 @@ public class Bml extends AppCompatActivity {
     private EditText numberbmi2;
     private double Numbmi1, Numbmi2;
     private android.widget.Button Resultbmi;
-
+    private  double x;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +34,7 @@ public class Bml extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent mneb1 = new Intent(Bml.this, MainActivity.class);
+                finish();
                 startActivity(mneb1);
             }
         });
@@ -44,8 +45,8 @@ public class Bml extends AppCompatActivity {
 
                 Numbmi1 = Integer.parseInt(numberbmi1.getText().toString().trim());
                 Numbmi2 = Integer.parseInt(numberbmi2.getText().toString().trim());
-
-                double result = Numbmi2 / (Numbmi1 * 2 );
+                x = 100 ;
+                double result = Numbmi2 / (Numbmi1 *2.0/x );
                 ResultTextViewbmi.setText(String.valueOf(result));
 
             }

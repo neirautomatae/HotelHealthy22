@@ -121,6 +121,7 @@ public class Safety extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent backsafehm1 = new Intent(Safety.this , MainActivity.class);
+                finish();
             startActivity(backsafehm1);
             }
         });

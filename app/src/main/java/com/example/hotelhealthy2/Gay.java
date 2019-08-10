@@ -32,6 +32,7 @@ public class Gay extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent bkgay01 = new Intent(Gay.this , MainActivity.class);
+                finish();
                 startActivity(bkgay01);
             }
         });

@@ -52,6 +52,7 @@ public class Mind extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent bkhmmd = new Intent(Mind.this , MainActivity.class);
+                finish();
                 startActivity(bkhmmd);
             }
         });

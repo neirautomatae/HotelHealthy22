@@ -31,6 +31,7 @@ public class Numbertele1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent backhometele1 = new Intent(Numbertele1.this , MainActivity.class);
+                finish();
                 startActivity(backhometele1);
             }
         });
